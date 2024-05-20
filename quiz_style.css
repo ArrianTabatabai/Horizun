@@ -16,7 +16,8 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.89); /* changed from rgba(255, 255, 255, 0.89) */
     border-radius: 50px;
 }
-button {
+
+.button {
     display: block;
     margin: 10px auto;
     padding: 20px 30px;
@@ -44,7 +45,7 @@ button:hover {
 
 .loading-bar {
     position:fixed;
-    top: 50px;
+    top: 80px;
     display: flex;
     width: 200px;
     height: 20px;
@@ -62,3 +63,22 @@ button:hover {
     background-color: #000000;
 }
 
+.title {
+    position:fixed;
+    top: 10px;
+}
+
+input[type="radio"].circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input[type="radio"].circle:checked {
+    background-color: #000;
+}
