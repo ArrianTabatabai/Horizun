@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: gilroy, sans-serif;
+    color: #000000; /* changed from #ffffff */
+    background-color: #ffffff; /* changed from #000000 */
+}
+.container {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #000000; /* changed from #ffffff */
+    background-color: #ffffff; /* changed from #000000 */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.89); /* changed from rgba(255, 255, 255, 0.89) */
+    border-radius: 50px;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #ffffff; /* changed from #000000 */
+    color: #000000; /* changed from #ffffff */
+    border: 2px solid #000000; /* changed from #ffffff */
+}
+
+button:hover {
+    background-color: #000000; /* changed from #ffffff */
+    color: #ffffff; /* changed from #000000 */
+}
+
+.logo {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 120px;
+}
+
+.loading-bar {
+    position:fixed;
+    top: 50px;
+    display: flex;
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50px;
+    overflow: hidden; /* Add this line */
+}
+
+.loading-part {
+    width: 33.33%;
+    background-color: #bbb;
+}
+
+.completed {
+    background-color: #000000;
+}
+
