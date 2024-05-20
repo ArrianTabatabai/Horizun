@@ -11,15 +11,17 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
+            font-family: gilroy, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
         }
         .container {
             text-align: center;
-            padding: 20px;
-            border: 1px solid #000;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 50px;
+            border: 1px solid #ffffff;
+            background-color: #000000;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.89);
+            border-radius: 50px;
         }
         button {
             display: block;
@@ -27,10 +29,21 @@
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+            border-radius: ;
         }
+        .logo {
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 200px;
+    }
+
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>How do you see your career fitting into your lifestyle?</h1>
         <form action="q2.html" method="get">
@@ -39,6 +52,7 @@
             <button type="submit" name="career" value="work">My work is my passion and I enjoy devoting a lot of time to it</button>
             <button type="submit" name="career" value="not-sure">Not sure</button>
         </form>
+        <img class='logo' src="static\logo.png">
     </div>
 </body>
 </html>
